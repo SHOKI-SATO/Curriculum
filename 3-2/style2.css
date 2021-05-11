@@ -20,6 +20,10 @@ body{
     width: 250px;
     float: left;
 }
+.contents-top{
+    height: 150px;
+    width: 250px;
+}
 .main-right{
     height: 150px;
     width: 100px;

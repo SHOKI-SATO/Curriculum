@@ -5,8 +5,14 @@
     .main-left{
         width: 100px;
     }
+    .contents-top{
+        width: 200px;
+    }
     .main-right{
         width: 75px;
+    }
+    .contents-left{
+        width: 125px;
     }
     .main-top{
         width: 125px;
@@ -30,18 +36,17 @@
     .main-left{
         width: 150px;
         height: 100px;
-        clear: both;
+      
     }
     .contents{
         clear: both;
     }
+    .contents-top{
+        width: 150px;
+    }
     .main-right{
         width: 150px;
         height: 100px;
-        clear: both;
-    }
-    .contents-left{
-        clear: both;
     }
     .main-top{
         width: 150px;
@@ -51,11 +56,13 @@
     }
     .main-under{
         width: 150px;
+        clear: both;
+        position: relative;
     }
     .footer{
         width: 150px;
+        position: absolute;
+        top: 550px;
     }
-    
-      
   
       }
