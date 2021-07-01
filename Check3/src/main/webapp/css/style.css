@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* 【header.jsp】 */
+/*  div */
+header div{
+background-color: gray;
+}
+/*  label */
+.login{
+display: inline-block;
+padding: 10px;
+color: white;
+}
+/*  label */
+.date{
+padding: 10px;
+font-size: 10px;
+
+}
+
+/* 【jspTest.jsp】 */
+/*  div */
+.table{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+ 
+
+/* 【footer.jsp】 */
+/*  div */
+footer div{
+background-color: gray;
+}
+/*  label */
+.footer{
+display: inline-block;
+padding: 10px;
+color: white;
+}
