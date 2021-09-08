@@ -42,20 +42,22 @@
          //①onchangeで使用されている関数の中身を実装してください。
 
         function changeLang(){
-        var id = document.querySelectorAll('language').value;
-        
+        var id = document.getElementById('language').value;
+        var sl = document.getElementById('select').value;
+        var sl_jp = document.getElementById('selected_jpn').value;
+        var sl_en = document.getElementById('selected_en').value;
+        var sl_all = document.getElementById('selected_all').value;
+    
 
-        if(id == 'select'){
-            document.getElementById('japan', 'english').style.display ="none";
-        }else if(id == 'selected_jpn'){
+if(id == sl_jp){
             document.getElementById('japan').style.display ="block";
             document.getElementById('english').style.display ="none";
         }
-        else if(id == 'selected_en'){
+        else if(id == sl_en){
             document.getElementById('english').style.display ="block";
             document.getElementById('japan').style.display ="none";
         }
-        else if(id == 'selected_all'){
+        else if(id == sl_all){
             document.getElementById('japan', 'english').style.display ="block";
         }
     }
